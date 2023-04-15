@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url('bg-stop-watch.jpeg') no-repeat center center/ cover;
+}
+.contaner{
+    width: 30%;
+    height: 32vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+.contaner #watch{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.startStopBtn{
+
+    background-color: green;
+    margin-right:12px ;
+}
+.resetbtn{
+ 
+    background-color:red;
+    margin-left:12px ;
+}
+.buttons{
+    margin-top: 15px;
+
+}
+.buttons i{
+    font-size: 24px;
+    color: white;
+    padding: 12px 12px;
+}
+#paos{
+    background-color: orange;
+}
